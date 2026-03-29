@@ -1,3 +1,21 @@
+# Data files
+data/*.csv
+data/*.zip
+data/*.gz
+data/*.h5
+
+# Model artifacts
+results/models/*.h5
+results/models/*.keras
+results/models/*.pkl
+results/models/*.joblib
+*.pkl
+*.joblib
+
+# OS
+.DS_Store
+Thumbs.db
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
